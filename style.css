@@ -6,12 +6,13 @@ h1{
     font-size: 50px;
     font-weight: 400;
     margin: 10px 0px;
+    color: #2e2d67;
+    font-weight: 700;
     
 }
 .top-banner{
     background-repeat: no-repeat;
     height: 600px;
-    border: 2px solid black;
     
 }
 
@@ -20,15 +21,14 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    border: 2px solid black;
 }
 
 .half-width img{
     width: 100%;
-    border: 2px solid black;
     max-height: 595px;
     
 }
+
 
 .mtop{
     margin-top: 150px;
@@ -72,18 +72,6 @@ a{
     margin-top: 100px;
 }
 
-#box-boder1{
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg, rgb(158, 47, 3),rgb(231, 117, 97));
-    border-image-slice: 1;
-}
-
-#box-boder2{
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg, rgb(12, 31, 209),rgb(44, 114, 243));
-    border-image-slice: 1;
-}
-
 .client{
     padding-top: 60px;
 }
@@ -98,10 +86,136 @@ footer{
     height: 100%;
 }
 
+.bc{
+    background-color: rgb(245 238 238);
+}
 
 
 
+.title-name-color{
+    color: orange;
+}
 
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    border-radius: 15px;
+}
 
+.left-margin{
+    margin-left: 5%;
+}
 
+.experience{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
+}
+.contact{
+    height: 650px;
+}
+
+.client{
+    padding-top: 60px;
+}
+footer{
+    text-align: center;
+    font-weight: 400;
+    padding: 12px 0;
+    background-color: rgb(245, 238, 238);
+}
+
+.mtop{
+    margin-top: 50px;
+}
+
+.pad-top{
+    padding-top: 30px;
+}
+.center{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.work-color{
+    color: #2e2d67;
+}
+
+.box-width{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.box-image{
+    width: 100%;
+    height: 70%;
+}
+
+.client-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.work{
+    height: 300px;
+    width: 100%;
+
+}
+
+.back{
+    height: 200px;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-image: url(shapes/Group_33094_1.png);
+    
+    
+}
+
+.back-half{
+    width: 48%;
+    height: 200;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+    color: whitesmoke;
+
+}
+
+.btop{
+    margin-top: 25px;
+}
+
+.middle{
+    height: 35px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.icons{
+    float: left;
+    height: 35px;
+    width: 300px;
+    margin: 0 auto;
+    padding-right: 5px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid rgb(53, 49, 49);
+    width: 100%;
+    
+}
+
+.top{
+    margin-top: 120px;
+}
+
+.experience p{
+    text-align: center;
+}
